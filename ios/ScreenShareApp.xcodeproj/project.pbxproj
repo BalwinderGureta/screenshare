@@ -20,6 +20,7 @@
 		C7C9D5562DBC73F500EE0A41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C9D5552DBC73F500EE0A41 /* UIKit.framework */; };
 		C7C9D55D2DBC73F500EE0A41 /* ScreenShareExtensionSetupUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C7C9D5532DBC73F500EE0A41 /* ScreenShareExtensionSetupUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C7C9D5602DBC73F500EE0A41 /* ScreenShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C7C9D5482DBC73F400EE0A41 /* ScreenShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C7F1ABC62DBC7DBD0076D2C4 /* BroadcastPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F1ABC52DBC7DB60076D2C4 /* BroadcastPickerManager.m */; };
 		CA2B204ACE70ADD5378BE70E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BB8C101471E0C5DD571BC3A4 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,8 @@
 		C7C9D5492DBC73F400EE0A41 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
 		C7C9D5532DBC73F500EE0A41 /* ScreenShareExtensionSetupUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ScreenShareExtensionSetupUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C9D5552DBC73F500EE0A41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7F1ABC42DBC7D110076D2C4 /* BroadcastPickerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BroadcastPickerManager.h; sourceTree = "<group>"; };
+		C7F1ABC52DBC7DB60076D2C4 /* BroadcastPickerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroadcastPickerManager.m; sourceTree = "<group>"; };
 		C947A790E812481F8E2A56F6 /* ScreenShareApp-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ScreenShareApp-Bridging-Header.h"; path = "ScreenShareApp/ScreenShareApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ScreenShareApp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 		13B07FAE1A68108700A75B9A /* ScreenShareApp */ = {
 			isa = PBXGroup;
 			children = (
+				C7F1ABC52DBC7DB60076D2C4 /* BroadcastPickerManager.m */,
+				C7F1ABC42DBC7D110076D2C4 /* BroadcastPickerManager.h */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -492,6 +497,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
+				C7F1ABC62DBC7DBD0076D2C4 /* BroadcastPickerManager.m in Sources */,
 				2D0CAC0BAE174B54ADB91C17 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
