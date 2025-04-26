@@ -135,15 +135,15 @@
 		13B07FAE1A68108700A75B9A /* ScreenShareApp */ = {
 			isa = PBXGroup;
 			children = (
-				C7F1ABC52DBC7DB60076D2C4 /* BroadcastPickerManager.m */,
-				C7F1ABC42DBC7D110076D2C4 /* BroadcastPickerManager.h */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				C7F1ABC52DBC7DB60076D2C4 /* BroadcastPickerManager.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
+				C7F1ABC42DBC7D110076D2C4 /* BroadcastPickerManager.h */,
 				A9A48A838A4640B5B9BCEE5A /* noop-file.swift */,
 				C947A790E812481F8E2A56F6 /* ScreenShareApp-Bridging-Header.h */,
 				BB8C101471E0C5DD571BC3A4 /* PrivacyInfo.xcprivacy */,
