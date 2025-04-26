@@ -135,6 +135,8 @@
 		13B07FAE1A68108700A75B9A /* ScreenShareApp */ = {
 			isa = PBXGroup;
 			children = (
+				C7F1ABC52DBC7DB60076D2C4 /* BroadcastPickerManager.m */,
+				C7F1ABC42DBC7D110076D2C4 /* BroadcastPickerManager.h */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -178,8 +180,6 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
-				C7F1ABC52DBC7DB60076D2C4 /* BroadcastPickerManager.m */,
-				C7F1ABC42DBC7D110076D2C4 /* BroadcastPickerManager.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
